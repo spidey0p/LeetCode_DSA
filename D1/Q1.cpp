@@ -18,7 +18,7 @@ int maxProfite(vector<int> &arr)
 }
 int main()
 {
-    vector<int> arr = {7, 1, 5, 3, 6, 4};
+    vector<int> arr = {7, 1, 5, 3, 9, 4};
     int maxPro = maxProfite(arr);
     cout << "Max Profit is :" << maxPro << endl;
 }
