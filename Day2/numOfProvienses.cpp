@@ -40,10 +40,8 @@ public:
         int cnt = 0;
         for (int i = 0; i < V; i++)
         {
-            // if the node is not visited
             if (!vis[i])
             {
-                // counter to count the number of provinces
                 cnt++;
                 dfs(i, adjLs, vis);
             }
