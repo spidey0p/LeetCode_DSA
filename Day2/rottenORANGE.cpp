@@ -5,7 +5,6 @@ using namespace std;
 class Solution
 {
 public:
-    // Function to find minimum time required to rot all oranges.
     int orangesRotting(vector<vector<int>> &grid)
     {
         // figure out the grid size
@@ -20,7 +19,6 @@ public:
         {
             for (int j = 0; j < m; j++)
             {
-                // if cell contains rotten orange
                 if (grid[i][j] == 2)
                 {
                     q.push({{i, j}, 0});
