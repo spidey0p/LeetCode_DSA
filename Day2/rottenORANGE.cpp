@@ -52,7 +52,6 @@ public:
                 if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m &&
                     vis[nrow][ncol] == 0 && grid[nrow][ncol] == 1)
                 {
-                    // push in queue with timer increased
                     q.push({{nrow, ncol}, t + 1});
                     // mark as rotten
                     vis[nrow][ncol] = 2;
