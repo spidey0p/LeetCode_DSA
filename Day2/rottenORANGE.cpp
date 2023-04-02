@@ -7,11 +7,8 @@ class Solution
 public:
     int orangesRotting(vector<vector<int>> &grid)
     {
-        // figure out the grid size
         int n = grid.size();
         int m = grid[0].size();
-
-        // store {{row, column}, time}
         queue<pair<pair<int, int>, int>> q;
         int vis[n][m];
         int cntFresh = 0;
@@ -22,10 +19,8 @@ public:
                 if (grid[i][j] == 2)
                 {
                     q.push({{i, j}, 0});
-                    // mark as visited (rotten) in visited array
                     vis[i][j] = 2;
                 }
-                // if not rotten
                 else
                 {
                     vis[i][j] = 0;
