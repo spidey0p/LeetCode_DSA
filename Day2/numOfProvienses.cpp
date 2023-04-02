@@ -28,7 +28,6 @@ public:
         {
             for (int j = 0; j < V; j++)
             {
-                // self nodes are not considered
                 if (adj[i][j] == 1 && i != j)
                 {
                     adjLs[i].push_back(j);
