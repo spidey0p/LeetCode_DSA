@@ -4,10 +4,8 @@ using namespace std;
 class Solution
 {
 private:
-    // dfs traversal function
     void dfs(int node, vector<int> adjLs[], int vis[])
     {
-        // mark the more as visited
         vis[node] = 1;
         for (auto it : adjLs[node])
         {
