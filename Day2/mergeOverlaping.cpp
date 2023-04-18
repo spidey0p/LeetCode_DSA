@@ -1,6 +1,7 @@
 // optimize ans
 
 #include <bits/stdc++.h>
+#include <algorithm>
 
 using namespace std;
 vector<vector<int>> merge(vector<vector<int>> &intervals)
