@@ -19,7 +19,7 @@ void merge(int arr1[], int arr2[], int n, int m)
         // put the element in its correct position
         // so that next cycle can swap elements correctly
         int first = arr2[0];
-        // insertion sort is used here
+        // insertion sort
         for (k = 1; k < m && arr2[k] < first; k++)
         {
             arr2[k - 1] = arr2[k];
