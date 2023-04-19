@@ -7,9 +7,7 @@ void merge(int arr1[], int arr2[], int n, int m)
     int i, k;
     for (i = 0; i < n; i++)
     {
-        // take first element from arr1
-        // compare it with first element of second array
-        // if condition match, then swap
+
         if (arr1[i] > arr2[0])
         {
             int temp = arr1[i];
