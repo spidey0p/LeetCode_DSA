@@ -1,5 +1,5 @@
 // Given a sorted array of length n
-
+// Returns the index of the occurance number else -1
 #include <bits/stdc++.h>
 
 using namespace std;
