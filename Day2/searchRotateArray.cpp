@@ -15,12 +15,12 @@ int search(vector<int> &nums, int target)
         if (nums[low] <= nums[mid])
         { //<---step 5
             if (nums[low] <= target && nums[mid] >= target)
-                high = mid - 1; //<---step 6
+                high = mid - 1;
             else
                 low = mid + 1;
         }
         else
-        { //<---step 7
+        {
             if (nums[mid] <= target && target <= nums[high])
                 low = mid + 1;
             else
