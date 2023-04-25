@@ -17,7 +17,7 @@ int search(vector<int> &nums, int target)
             if (nums[low] <= target && nums[mid] >= target)
                 high = mid - 1; //<---step 6
             else
-                low = mid + 1; //<---step 7
+                low = mid + 1;
         }
         else
         { //<---step 7
