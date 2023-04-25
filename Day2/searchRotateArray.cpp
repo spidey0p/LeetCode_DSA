@@ -27,7 +27,7 @@ int search(vector<int> &nums, int target)
                 high = mid - 1;
         }
     }
-    return -1; //<---step 8
+    return -1;
 }
 
 int main()
