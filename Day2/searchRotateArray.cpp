@@ -7,8 +7,8 @@ int search(vector<int> &nums, int target)
     int low = 0, high = nums.size() - 1; //<---step 1
 
     while (low <= high)
-    {                                //<--- step 2
-        int mid = (low + high) >> 1; //<----step 3
+    {
+        int mid = (low + high) >> 1;
         if (nums[mid] == target)
             return mid; // <---step 4
 
