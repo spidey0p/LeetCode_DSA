@@ -38,3 +38,5 @@ int main()
 
     return 0;
 }
+
+/*The index in which the target is present is 7*/
