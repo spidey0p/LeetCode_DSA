@@ -30,3 +30,5 @@ int main()
     cout << "Minimum Value is " << minVal;
     return 0;
 }
+
+/*Minimum Value is 1*/
