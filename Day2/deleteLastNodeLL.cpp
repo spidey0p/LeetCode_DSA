@@ -80,3 +80,8 @@ int main()
     PrintList();
     return 0;
 }
+
+/*LinkedList before Deleting Last Node :
+10-->20-->30-->40-->null
+LinkedList after Deleting Lastt Node :
+10-->20-->30-->null*/
