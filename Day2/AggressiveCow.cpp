@@ -42,3 +42,4 @@ int main()
 
     return 0;
 }
+/*The largest minimum distance is 3*/
