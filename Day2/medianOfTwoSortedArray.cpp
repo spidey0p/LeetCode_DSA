@@ -42,3 +42,4 @@ int main()
          << median(nums1, nums2, m, n);
     return 0;
 }
+/*The Median of two sorted arrays is6.00000*/
