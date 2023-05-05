@@ -33,3 +33,6 @@ int main()
         cout << "False" << endl;
     return 0;
 }
+/*output
+
+True*/
