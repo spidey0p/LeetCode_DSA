@@ -1,4 +1,6 @@
 // Recursion Approach
+// method 1
+
 /*#include <bits/stdc++.h>
 using namespace std;
 
@@ -26,8 +28,9 @@ int main()
 }*/
 
 // Tabulation approach
+// method 2
 
-#include <bits/stdc++.h>
+/*#include <bits/stdc++.h>
 using namespace std;
 
 void FrogJump(int i, vector<int> &heights, vector<int> &dp)
@@ -54,6 +57,31 @@ int main()
     vector<int> dp(n, -1);
     FrogJump(n - 1, heights, dp);
     return 0;
-}
+}*/
 
 // Space optimization
+// method 3
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    vector<int> height{30, 10, 60, 10, 60, 50};
+    int n = height.size();
+    int prev = 0;
+    int prev2 = 0;
+    for (int i = 1; i < n; i++)
+    {
+        int jumpTwo = INT_MAX;
+        int JumpOne = prev + abs(height[i] - height[i - 1]);
+        if (i > 1)
+        {
+            jumpTwo = prev2 + abs(height[i] - height[i - 2]);
+        }
+        int curr_i = min(JumpOne, jumpTwo);
+        prev2 = prev;
+        prev = curr_i;
+    }
+    cout << prev;
+}
