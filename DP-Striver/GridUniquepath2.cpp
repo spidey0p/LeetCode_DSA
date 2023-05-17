@@ -29,8 +29,8 @@ int main()
 {
     vector<vector<int>> maze{{0, 0, 0}, {0, -1, 0}, {0, 0, 0}};
 
-    int n = maze.size();
-    int m = maze[0].size();
+    int n = maze.size();    // number of rows in the maze
+    int m = maze[0].size(); // number of columns in the maze
     cout << obstacles(n, m, maze);
     return 0;
 }
