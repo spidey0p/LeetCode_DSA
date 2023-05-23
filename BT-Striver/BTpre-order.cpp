@@ -175,6 +175,7 @@ int main()
     root->right->left = solution.newNode(3);
 
     vector<int> result = solution.preorderTraversal(root);
+
     cout << "Preorder Traversal: ";
     for (int num : result)
     {
