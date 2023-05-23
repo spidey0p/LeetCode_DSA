@@ -149,7 +149,7 @@ public:
             preOrder.push_back(topNode->val);
             s.pop();
             if (topNode->right != NULL)
-                s.push(topNode->right); // Fix: push the right child, not topNode->val
+                s.push(topNode->right);
             if (topNode->left != NULL)
                 s.push(topNode->left);
         }
