@@ -151,7 +151,7 @@ public:
             if (topNode->right != NULL)
                 s.push(topNode->right); // Fix: push the right child, not topNode->val
             if (topNode->left != NULL)
-                s.push(topNode->left); // Fix: push the left child, not topNode->val
+                s.push(topNode->left);
         }
         return preOrder;
     }
