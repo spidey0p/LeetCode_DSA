@@ -156,7 +156,7 @@ public:
         return preOrder;
     }
 
-    TreeNode *newNode(int val) // Fix: Correct the return type of the function
+    TreeNode *newNode(int val)
     {
         TreeNode *node = new TreeNode;
         node->val = val;
