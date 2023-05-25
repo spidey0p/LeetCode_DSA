@@ -56,3 +56,5 @@ int main()
 
     cout << "The minimum absolute difference is: " << minSubSetDiff(arr, n);
 }
+
+/*The minimum absolute difference is: 0*/
