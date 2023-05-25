@@ -52,6 +52,7 @@ int main()
 {
 
     vector<int> arr = {1, 2, 3, 4};
+
     int n = arr.size();
 
     cout << "The minimum absolute difference is: " << minSubSetDiff(arr, n);
