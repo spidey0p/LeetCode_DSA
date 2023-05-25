@@ -1,8 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool subSet(int ind, int tar, vector<int> &arr, vector<vector<int>> &dp)
+bool subSet(int ind, int target, vector<int> &arr, vector<vector<int>> &dp)
 {
-    if (tar == 0)
-        return dp[ind][tar] = true;
+    if (target == 0)
+        return dp[ind][target] = true;
+
+    if (ind == 0)
+        return dp[ind][target] = target;
 }
