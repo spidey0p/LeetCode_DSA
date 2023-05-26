@@ -33,7 +33,7 @@ int main()
         int u, v;
         cin >> u >> v;
         adj[u].push_back(v);
-        adj[v].push_back(u);
+        adj[v].push_back(u); // in case of directed graph this line will remove
     }
     return 0;
 }
