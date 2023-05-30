@@ -69,3 +69,16 @@ bool subSet(int n, int k, vector<int> &arr)
     }
     return dp[n - 1][k];
 }
+
+int main()
+{
+    vector<int> arr = {1, 2, 3, 4};
+
+    int k = 4;
+    int n = arr.size();
+
+    if (subSet(n, k, arr))
+        cout << "Target found!" << endl;
+    else
+        cout << "Target not found!" << endl;
+}
