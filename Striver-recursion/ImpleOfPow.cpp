@@ -25,3 +25,7 @@ double myPow(double x, int n)
         ans = (double)(1.0) / (double)(ans);
     return ans;
 }
+int main()
+{
+    cout << myPow(2.10000, 3) << endl;
+}
