@@ -10,10 +10,12 @@ int minAddToMakeValid(string s)
     {
         if (s[i] == '(')
             lb++;
-        if (s[i] == ')')
+        else if (lb > 0)
+            lb--;
+        else
             rb++;
     }
-    return abs(lb - rb);
+    return abs(lb + rb);
 }
 int main()
 {
