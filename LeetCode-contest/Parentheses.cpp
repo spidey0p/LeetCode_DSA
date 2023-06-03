@@ -15,3 +15,11 @@ int minAddToMakeValid(string s)
     }
     return abs(lb - rb);
 }
+int main()
+{
+    string str;
+    cout << "Enter the string:";
+    cin >> str;
+    int x = minAddToMakeValid(str);
+    cout << x << endl;
+}
