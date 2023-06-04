@@ -16,7 +16,7 @@ string countAndSay(int n)
         str = str + "&";
         int cnt = 1;
 
-        for (int j = 0; j < str.length(); j++)
+        for (int j = 1; j < str.length(); j++)
         {
             if (str[j] != str[j - 1])
             {
@@ -30,4 +30,11 @@ string countAndSay(int n)
         str = temp;
     }
     return str;
+}
+int main()
+{
+    int n;
+    cout << "Enter number:";
+    cin >> n;
+    cout << countAndSay(n);
 }
