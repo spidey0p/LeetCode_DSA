@@ -33,3 +33,18 @@ int compress(vector<char> &chars)
     }
     return index;
 }
+
+int main()
+{
+    vector<char> chars = {'a', 'a', 'b', 'b', 'c', 'c', 'c'};
+    int compressed_length = compress(chars);
+
+    cout << "Compressed String: ";
+    for (int i = 0; i < compressed_length; i++)
+    {
+        cout << chars[i];
+    }
+    cout << endl;
+
+    return 0;
+}
