@@ -42,6 +42,7 @@ int main()
     int compressed_length = compress(chars);
 
     cout << "Compressed String: ";
+
     for (int i = 0; i < compressed_length; i++)
     {
         cout << chars[i];
