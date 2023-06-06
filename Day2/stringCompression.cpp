@@ -38,6 +38,7 @@ int compress(vector<char> &chars)
 int main()
 {
     vector<char> chars = {'a', 'a', 'b', 'b', 'c', 'c', 'c'};
+
     int compressed_length = compress(chars);
 
     cout << "Compressed String: ";
