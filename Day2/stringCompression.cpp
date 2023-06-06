@@ -31,6 +31,7 @@ int compress(vector<char> &chars)
             }
         }
     }
+
     return index;
 }
 
