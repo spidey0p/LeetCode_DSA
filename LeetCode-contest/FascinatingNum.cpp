@@ -20,6 +20,7 @@ bool isFascinating(int n)
         else
             return false;
     }
+    return false;
 }
 int main()
 {
