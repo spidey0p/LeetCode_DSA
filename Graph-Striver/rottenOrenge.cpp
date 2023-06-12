@@ -55,3 +55,10 @@ int orangesRotting(vector<vector<int>> &grid)
 
     return tm;
 }
+
+int main()
+{
+    vector<vector<int>> v{{2, 1, 1}, {1, 1, 0}, {0, 1, 1}};
+    int rotting = orangesRotting(v);
+    cout << "Minimum Number of Minutes Required " << rotting << endl;
+}
