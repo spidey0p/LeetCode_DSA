@@ -31,7 +31,7 @@ public:
     vector<vector<int>> floodFill(vector<vector<int>> &image,
                                   int sr, int sc, int newColor)
     {
-        // get initial color
+
         int iniColor = image[sr][sc];
         vector<vector<int>> ans = image;
         // delta row and delta column for neighbours
