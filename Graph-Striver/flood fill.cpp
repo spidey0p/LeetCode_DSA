@@ -17,8 +17,7 @@ private:
         {
             int nrow = row + delRow[i];
             int ncol = col + delCol[i];
-            // check for valid coordinate
-            // then check for same initial color and unvisited pixel
+
             if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m &&
                 image[nrow][ncol] == iniColor && ans[nrow][ncol] != newColor)
             {
