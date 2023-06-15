@@ -43,6 +43,7 @@ int main()
     vector<string> result2 = summaryRanges(nums2);
 
     cout << "Result 2: ";
+
     for (const auto &range : result2)
     {
         cout << range << " ";
