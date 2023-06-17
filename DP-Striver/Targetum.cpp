@@ -46,3 +46,13 @@ int targetSum(int n, int target, vector<int> &arr)
 
     return findTargetSumWays(arr, (totSum - target) / 2);
 }
+
+int main()
+{
+
+    vector<int> arr = {1, 2, 3, 1};
+    int target = 3;
+
+    int n = arr.size();
+    cout << "The number of ways found is " << targetSum(n, target, arr);
+}
