@@ -33,6 +33,7 @@ public:
 
         int iniColor = image[sr][sc];
         vector<vector<int>> ans = image;
+
         // delta row and delta column for neighbours
         int delRow[] = {-1, 0, +1, 0};
         int delCol[] = {0, +1, 0, -1};
