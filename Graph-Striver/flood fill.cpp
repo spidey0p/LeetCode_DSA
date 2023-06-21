@@ -12,6 +12,7 @@ private:
         ans[row][col] = newColor;
         int n = image.size();
         int m = image[0].size();
+
         // there are exactly 4 neighbours
         for (int i = 0; i < 4; i++)
         {
