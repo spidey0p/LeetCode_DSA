@@ -22,10 +22,11 @@ int minLength(string s)
 int main()
 {
     string s;
-    
+
     cout << "Enter the string:";
     cin >> s;
 
     int length = minLength(s);
+
     cout << "Min Length is: " << length << endl;
 }
