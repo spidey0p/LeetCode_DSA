@@ -22,6 +22,7 @@ int height(TreeNode *node, int &diameter)
 int diameterOfBinaryTree(TreeNode *root)
 {
     int diameter = 0;
+
     height(root, diameter);
     return diameter;
 }
