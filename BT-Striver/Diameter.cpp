@@ -12,6 +12,7 @@ int height(TreeNode *node, int &diameter)
         return 0;
 
     int lh = height(node->left, diameter);
+
     int rh = height(node->right, diameter);
 
     diameter = max(diameter, lh + rh);
