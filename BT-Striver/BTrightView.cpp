@@ -32,4 +32,5 @@ vector<int> rightSideView(TreeNode *root)
         }
         ans.push_back(data.back());
     }
+    return ans;
 }
