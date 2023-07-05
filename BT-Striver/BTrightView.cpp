@@ -16,6 +16,7 @@ vector<int> rightSideView(TreeNode *root)
     while (!q.empty())
     {
         int size = q.size();
+
         if (size == 0)
             return ans;
         vector<int> data(size);
