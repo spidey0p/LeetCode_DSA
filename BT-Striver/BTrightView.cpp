@@ -11,6 +11,7 @@ vector<int> rightSideView(TreeNode *root)
     vector<int> ans;
     queue<TreeNode *> q;
     if (root == NULL)
+
         return ans;
     q.push(root);
 
