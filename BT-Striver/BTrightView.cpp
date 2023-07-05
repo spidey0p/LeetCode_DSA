@@ -13,6 +13,7 @@ vector<int> rightSideView(TreeNode *root)
     if (root == NULL)
         return ans;
     q.push(root);
+
     while (!q.empty())
     {
         int size = q.size();
