@@ -30,6 +30,7 @@ vector<int> rightSideView(TreeNode *root)
 
             if (temp->left != NULL)
                 q.push(temp->left);
+
             if (temp->right != NULL)
                 q.push(temp->right);
         }
