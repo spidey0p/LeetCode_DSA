@@ -15,6 +15,7 @@ void flatten(TreeNode *root)
     while (!st.empty())
     {
         TreeNode *cur = st.top();
+
         st.pop();
 
         if (cur->right != NULL)
