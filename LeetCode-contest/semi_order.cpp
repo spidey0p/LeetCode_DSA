@@ -15,6 +15,7 @@ int semiOrderedPermutation(vector<int> &nums)
     }
     if (min < max)
         return (min + n - max - 1);
+
     return (min + n - max - 1) - 1;
 }
 int main()
