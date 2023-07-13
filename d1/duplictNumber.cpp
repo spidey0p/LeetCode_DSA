@@ -30,6 +30,7 @@ int main()
     int arr[] = {1, 2, 3, 4, 5, 5};
 
     int x = S.findDuplicate(arr);
+
     cout << x;
     return 0;
 }
