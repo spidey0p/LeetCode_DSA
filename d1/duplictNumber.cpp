@@ -32,5 +32,6 @@ int main()
     int x = S.findDuplicate(arr);
 
     cout << x;
+
     return 0;
 }
