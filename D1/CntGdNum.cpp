@@ -9,7 +9,6 @@ long long power(long long x, long long n)
     long long ans = power(x, n / 2);
     ans *= ans;
     ans %= mod;
-
     if (n % 2)
         ans *= x;
     ans %= mod;
