@@ -18,6 +18,7 @@ long long power(long long x, long long n)
 int countGoodNumbers(long long n)
 {
     long long odd = n / 2;
+
     long long even = n / 2 + n % 2;
     return (power(5, even) * power(4, odd)) % mod;
 }
