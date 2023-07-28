@@ -18,10 +18,12 @@ void fun(int index, string s, vector<string> &path, vector<vector<string>> &res)
     }
     for (int i = index; i < s.size(); i++)
     {
-        if (isPallindrom(s.substr(index, i - index + 1)))
-            ;
-        fun(i + 1, s, path, res);
-        path.pop_back();
+        if (isPallindrom(s, index, i))
+        {
+            path.push_back(s.substr(index, i - index + 1));
+            fun(i + 1, s, path, res);
+            path.pop_back();
+        }
     }
 }
 bool isPallindrom(string s, int start, int end)
