@@ -24,6 +24,7 @@ int solve(vector<vector<int>> &dp, vector<int> &v, int i, int j, int k)
     }
     return dp[i][j] = ans;
 }
+
 bool PredictTheWinner(vector<int> &v)
 {
     int i, n = v.size();
