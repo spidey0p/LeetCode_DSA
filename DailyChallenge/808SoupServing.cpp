@@ -31,5 +31,9 @@ double solve(double A, double B)
 
 double soupServings(int n)
 {
+    if (n >= 4000) // When the Value of A is larger thrn the probablity of 'A' is tendes to 1, For a larger values.
+        return 1;
+
+    dp.resize(n + 1, vector<double>(n + 1, -1.0));
     return solve(n, n);
 }
