@@ -22,6 +22,7 @@ string shortestCommonSupersequence(string str1, string str2)
                 dp[i][j] = 0 + max(dp[i][j - 1], dp[i - 1][j]);
         }
     }
+
     int len = dp[m][n];
     int i = m;
     int j = n;
