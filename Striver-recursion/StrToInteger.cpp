@@ -5,6 +5,7 @@ int myAtoi(string s)
 {
     long reg = 0;
     int flag = 1;
+
     for (int i = 0; i < s.size();)
     {
         i = s.find_first_not_of(' ');
