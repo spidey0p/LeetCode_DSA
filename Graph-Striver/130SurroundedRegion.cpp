@@ -71,6 +71,5 @@ void solve(vector<vector<char>> &board)
                 board[i][j] = 'X';
         }
     }
-
     board = ans;
 }
