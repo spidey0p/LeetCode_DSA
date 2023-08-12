@@ -22,6 +22,7 @@ int ladderLength(string beginWord, string endWord, vector<string> &wordList)
             for (char ch = 'a'; ch <= 'z'; ch++)
             {
                 word[i] = ch;
+                // check if it exists in the set and push it in the queue.
                 if (st.find(word) != st.end())
                 {
                     st.erase(word);
