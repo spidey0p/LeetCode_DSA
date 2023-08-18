@@ -7,7 +7,7 @@ vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites)
 
     for (auto it : prerequisites)
     {
-        adj[it[1]].push_back(it[0]);
+        adj[it[1]].push_back(it[0]); // 1->0
     }
 
     vector<int> indegree(numCourses, 0); // Initialize with 0
